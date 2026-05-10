@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'DM Mono', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #F5EEDE;
+    background-color: #090506;
+    line-height: 18px;
+    letter-spacing: 1px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+header {
+    border-bottom: 1px solid #F5EEDE1F;
+}
+
+/* Começo do ícone próprio  */
+
+.icon-target {
+  width: 40px;
+  height: 40px;
+  fill: none;
+  stroke: orange;
+  stroke-width: 4;
+}
+
+.inner-ring { stroke-width: 3; }
+.center-dot { fill: #8b0000; stroke: none; }
+
+/* Termina aqui o ícone próprio */
+
+
+.synesthesia {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  padding: 15px 0;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F5EEDE;
+    transition: 1s;
+}
+
+a:hover {
+    color: orange;
+}
+
+.btn-vermelho {
+    background-color: #8D1514;
+    padding: 13px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-vermelho:hover {
+    background-color: #ae0d0d;
+}
+
+.alinhamento-meio {
+    display: flex;
+    gap: 40px; 
+    align-items: center;
+}

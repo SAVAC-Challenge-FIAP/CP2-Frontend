@@ -1,5 +1,5 @@
 
-# Sprint II - Front End
+# Checkpoint II - Front End
 Equipe: SAVAC
 
 ## Nomes dos Integrantes
