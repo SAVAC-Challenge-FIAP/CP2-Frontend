@@ -42,7 +42,6 @@ footer {
 .inner-ring { stroke-width: 3; }
 .center-dot { fill: #8b0000; stroke: none; }
 
-/* Termina aqui o ícone próprio */
 
 .synesthesia {
   display: flex;
@@ -109,3 +108,148 @@ a:hover {
     border-radius: 50%;
     padding: 5px;
 }
+
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    max-width: 580px;
+    margin-right: 80px;
+}
+
+.center-dot2 { fill: #F8A20D; stroke: none; }
+
+.texto-pequeno p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: gray;
+}
+
+.texto-pequeno svg{
+    flex-shrink: 0;
+}
+
+.texto-pequeno p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+}
+
+.dot-svg{
+    width: 8px;
+    height: 8px;
+    display: block;
+    flex-shrink: 0;
+}
+
+.home > img{
+    width: 380px;
+}
+
+.home > .text{
+    margin-top: 120px;
+}
+
+
+.texto-principal{
+    margin-top: 40px;
+    font-size: 46px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+#alternativo{
+    color:#F8A20D;
+}
+
+.texto-secundario{
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 40px;
+}
+
+.buttons > .btn-vermelho{
+    font-size: 13px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+
+    i{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+.btn-amarelo{
+    color: #F8A20D;
+    background-color: transparent;
+    padding: 13px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: solid #F8A20D 2px;
+    width: 146px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.btn-amarelo:hover{
+    background-color: #F8A20D;
+    color: black;
+}
+
+.topicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.topicos > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topicos > div > div{
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.topicos p{
+    margin: 0;
+}
+
+.topicos .texto-pequeno{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8b7f7f;
+    font-size: 14px;
+}
+
+.texto-amarelo{
+    color: #F8A20D;
+}
+
+.topicos i{
+    font-size: 48px;
+    color: #f5eee6;
+}
+
+.topicos > div > div p{
+    font-size: 30px;
+    line-height: 1;
+}
+
+
