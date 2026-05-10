@@ -14,7 +14,7 @@ body {
     letter-spacing: 1px; 
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,10 @@ header {
 
 header {
     border-bottom: 1px solid #F5EEDE1F;
+}
+
+footer {
+    border-top: 1px solid #F5EEDE1F;
 }
 
 /* Começo do ícone próprio  */
@@ -39,7 +43,6 @@ header {
 .center-dot { fill: #8b0000; stroke: none; }
 
 /* Termina aqui o ícone próprio */
-
 
 .synesthesia {
   display: flex;
@@ -77,4 +80,32 @@ a:hover {
     display: flex;
     gap: 40px; 
     align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px; 
+    font-size: 16px; 
+}
+
+.apagadinho {
+    opacity: 0.7;
+}
+
+.orange {
+    color: orange;
+}
+
+/* Body */
+
+.dividido-meio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 120px;
+}
+.bola-amarela {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
 }
