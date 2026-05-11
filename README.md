@@ -12,4 +12,4 @@ Equipe: SAVAC
 
 ## Figma do projeto
 
-[Link do Figma](https://www.figma.com/design/3yJ1nLbHljozr8qqfrQ6yX/JOVI-Challenge---FIAP-2026?node-id=480-52&p=f&t=lAXtzcLMXUBtg6Fc-0)
+[Link do Figma](https://www.figma.com/design/3yJ1nLbHljozr8qqfrQ6yX/JOVI-Challenge---FIAP-2026?node-id=185-1111&t=w4ADDGHtG38jnAb2-1)
