@@ -252,4 +252,50 @@ a:hover {
     line-height: 1;
 }
 
+.titulo-pequeno{
+    display: flex;
+    color: #F8A20D;
+    align-items: center;
+}
+
+.titulo-pequeno hr{
+    margin-left: 250px;
+}
+
+.titulo-secundario{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+    font-size: 48px;
+    font-family: 'Syne', sans-serif;
+}
+
+.subcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.subcontainer .texto{
+    max-width: 500px;
+}
+
+.texto .texto-secundario{
+    color: #8b7f7f;
+    font-size: 17px;
+}
+
+.lista-diferenciais{
+    margin-top: 40px;
+    color: #8b7f7f;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: 'DM Mono', sans-serif;
+}
+
+.lista-diferenciais li::marker {
+    color:#F8A20D;
+}
 
