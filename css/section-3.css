@@ -1,15 +1,5 @@
-.section {
-    width: 100%;
-    padding: 0px 24px;
-    display: flex;
-    flex-direction: column;
-}
-
 .section-3 .container {
-    padding: 50px 0px;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -18,51 +8,51 @@
 
 .section-3 .container .gradient-blur {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
 }
 
-.section-3 .content{    
+.section-3 .list-solution {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     gap: 24px;
 }
-.section-3 .content .title-flag {
-    color: #F8A20D;
-    font-family: "DM Mono";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.96px;
-    text-transform: uppercase;
-    
+
+.section-3 .list-solution .card {
+    flex: 1;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 24px;
+    border: 1px solid rgba(245, 238, 222, 0.12);
+    border-radius: 8px;
 }
 
+.section-3 .list-solution .card .number {
+    color: var(--color-second);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.96px;
+}
 
-.section-3 .content .title {
-    color: #F5EEDE;
-    font-family: Syne;
-    font-size: 48px;
-    font-style: normal;
+.section-3 .list-solution .card img {
+    width: 32px;
+    height: 32px;
+}
+
+.section-3 .list-solution .card .title-card {
+    color: var(--color-white);
+    font-family: var(--font-syne);
+    font-size: 20px;
     font-weight: 400;
-    line-height: 55.2px; /* 115% */
-    letter-spacing: -0.48px;
-    margin-top: 10px;
 }
 
-.section-3 .content .subtitle {
+.section-3 .list-solution .card .subtitle-card {
     color: rgba(245, 238, 222, 0.70);
-    font-family: Syne;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.9px; /* 155% */
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 20px;
 }
