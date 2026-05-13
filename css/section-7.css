@@ -3,6 +3,10 @@
     margin-top: 100px;
 }
 
+.section-7 .container {
+    position: relative;
+}
+
 .section-7 .texto-grande {
     color: var(--color-white);
     margin-top: 40px;
@@ -21,6 +25,7 @@
 /* Não preciso colocar novamente as configurações do btn-vermelho, pois ele já vai usar. Neste caso, coloco a alteração adicional / diferença do principal */
 .section-7 .btn-vermelho {  
     display:flex;
+    align-items: center;
     margin-bottom: 60px;
     padding: 30px;
 }
@@ -30,5 +35,14 @@
     margin-bottom: 200px;
 }
 
+
+.section-7 .container .gradient-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
 
